@@ -1,6 +1,6 @@
 <template>
     <div class="gif-container">
-        <a v-for="gif in gifs" :key="gif.id" :href="gif.url" target="_blank">
+        <a class="gif" v-for="gif in gifs" :key="gif.id" :href="gif.url" target="_blank">
             <img :src="gif.preview" alt="gif.title" />
         </a>
     </div>
@@ -30,7 +30,11 @@ img {
     display: inline-block;
 }
 
-button {
-    background-color: $color-primary;
+@media only screen and (max-width: 600px) {
+  .gif-container {
+      grid-template-columns: 1fr;
+      padding: 0 10%;
+  }
 }
+
 </style>

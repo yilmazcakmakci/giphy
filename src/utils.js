@@ -6,10 +6,6 @@ export const clearGifObject = (gifs) => {
         title: gif.title,
         preview: gif.images.preview_gif.url,
         url: gif.images.original.url
-        // user: {
-        //     name: gif.user.username,
-        //     avatar: gif.user.avatar_url
-        // }
     }))
 }
 

@@ -53,6 +53,7 @@ const actions = {
 
         if (params.loadType === 'first') {
             commit('setGifs', data.gifs)
+            commit('setTotal', data.total_count)
         }
 
         else if (params.loadType === 'more') {
@@ -63,7 +64,6 @@ const actions = {
             console.error('Wrong load type.')
         }
 
-        commit('setTotal', data.total_count)
     }
 }
 
