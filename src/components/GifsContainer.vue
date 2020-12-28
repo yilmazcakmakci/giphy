@@ -16,7 +16,6 @@ export default {
     data() {
         return {
             isScrolled: false,
-            counter: 0,
         };
     },
     components: {
