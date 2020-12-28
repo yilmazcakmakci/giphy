@@ -1,24 +1,11 @@
-# biges-case-study
+# giphy
 
-## Project setup
-```
-npm install
-```
+> :rocket: Project is live at https://giphy-vue.netlify.app/
 
-### Compiles and hot-reloads for development
-```
+#### Local
+```bash
+git clone https://github.com/yilmazcakmakci/giphy
+cd giphy
+npm i
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
